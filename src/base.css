@@ -1,5 +1,5 @@
 :root {
-  --pf-global--FontFamily: 'Red Hat Text', 'Overpass', Helvetica, sans-serif;
+  --pf-global--FontFamily: 'Red Hat Text', 'Overpass', helvetica, sans-serif;
   --pf-global--primary-color--100: var(--pf-global--palette--red-100);
   --pf-global--primary-color--200: var(--pf-global--palette--red-200);
   --pf-global--link--Color: var(--pf-global--palette--red-100);
