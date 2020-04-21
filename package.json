@@ -42,7 +42,7 @@
     "eslint-plugin-react": "7.19.0",
     "husky": "4.2.5",
     "jest": "25.4.0",
-    "lint-staged": "10.1.6",
+    "lint-staged": "10.1.7",
     "prettier": "2.0.4",
     "react-docgen-typescript-loader": "3.7.2",
     "storybook-addon-smart-knobs": "6.0.2",
