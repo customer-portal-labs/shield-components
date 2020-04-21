@@ -46,7 +46,7 @@
     "prettier": "2.0.4",
     "react-docgen-typescript-loader": "3.7.2",
     "storybook-addon-smart-knobs": "6.0.2",
-    "stylelint": "13.3.2",
+    "stylelint": "13.3.3",
     "stylelint-config-standard": "20.0.0",
     "ts-jest": "25.4.0",
     "typescript": "3.8.3"
