@@ -9,7 +9,9 @@
   "scripts": {
     "storybook": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
-    "lint": "eslint **/*.tsx"
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint **/*.tsx",
+    "stylelint": "stylelint **/*.css"
   },
   "dependencies": {
     "@patternfly/react-core": "^3.153.3",
@@ -44,6 +46,8 @@
     "prettier": "^2.0.4",
     "react-docgen-typescript-loader": "^3.7.2",
     "storybook-addon-smart-knobs": "^6.0.2",
+    "stylelint": "^13.3.2",
+    "stylelint-config-standard": "^20.0.0",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   },
@@ -56,6 +60,9 @@
     "*.{ts,tsx,js,jsx,json,css,md,html}": [
       "prettier --write",
       "git add"
+    ],
+    "*.css": [
+      "npm run stylelint"
     ]
   }
 }
