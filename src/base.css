@@ -6,6 +6,13 @@
   --pf-global--active-color--100: var(--pf-global--palette--red-100);
 }
 
+:root[data-theme='dark'] {
+  --text-color-normal: hsl(210, 10%, 62%);
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+}
+
 .pf-c-button {
   font-family: var(--pf-global--FontFamily);
 }
