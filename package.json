@@ -48,7 +48,7 @@
     "storybook-addon-smart-knobs": "6.0.2",
     "stylelint": "13.7.2",
     "stylelint-config-standard": "20.0.0",
-    "ts-jest": "26.4.0",
+    "ts-jest": "26.4.1",
     "typescript": "3.9.7"
   },
   "husky": {
